@@ -44,7 +44,7 @@ body {
   align-items: center;
 }
 .navbar .brand {
-  font-size: 45px;
+  font-size: 3rem;
   font-weight: 700;
 }
 .nav-links li {
@@ -55,3 +55,16 @@ body {
   text-decoration: none;
   font-size: 1.25rem;
 }
+
+/* #banner {
+  margin-top: 100px;
+}
+.banner-content {
+}
+.banner-content h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+.banner-img img {
+  width: 100%;
+} */

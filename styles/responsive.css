@@ -1,0 +1,12 @@
+/* for small devices */
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 15px;
+  }
+  .navbar .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
