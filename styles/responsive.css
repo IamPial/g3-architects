@@ -1,4 +1,5 @@
 /* for small devices */
+/* TODO: Responsive the banner section */
 @media screen and (max-width: 576px) {
   .navbar {
     flex-direction: column;
@@ -8,5 +9,8 @@
   .navbar .nav-links {
     flex-direction: column;
     gap: 10px;
+  }
+  .banner-content h1 {
+    font-size: 2.5rem;
   }
 }
