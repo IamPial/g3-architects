@@ -13,21 +13,6 @@ body {
 
 /* shared style */
 
-.btn {
-  padding: 20px 25px;
-  font-size: 1.4rem;
-  font-weight: 600px;
-  color: #fff;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  background-color: #ff900e;
-  margin-bottom: 50px;
-}
-.btn:hover {
-  background-color: #f05f0c;
-}
-
 .bg-light-orange {
   background-color: rgba(255, 144, 14, 0.1);
 }
@@ -43,6 +28,10 @@ body {
 .text-light-gray {
   color: #727272;
 }
+.text-orange {
+  color: #ff900e;
+  color: #ff900e;
+}
 
 .display-flex {
   display: flex;
@@ -51,6 +40,26 @@ body {
   width: 75%;
   max-width: 1440px;
   margin: 0 auto;
+}
+/* h2 heading for all needed class */
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 24;
+}
+.btn {
+  padding: 20px 25px;
+  font-size: 1.4rem;
+  font-weight: 600px;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff900e;
+  margin-bottom: 50px;
+}
+.btn:hover {
+  background-color: #f05f0c;
 }
 
 /* main style */
@@ -95,4 +104,28 @@ body {
 
 .banner-img img {
   width: 100%;
+}
+
+/* Team Section */
+#teams {
+  padding: 130px 0;
+}
+#teams .container {
+  align-items: center;
+}
+.section-title .quick-list {
+  font-weight: 500;
+}
+.team-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.team-content {
+  margin-left: 70px;
+}
+.team-content p {
+  font-size: 1rem;
+  line-height: 26px;
+  margin: 30px 0;
 }
