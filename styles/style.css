@@ -121,6 +121,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
+
 .team-content {
   margin-left: 70px;
 }
