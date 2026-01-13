@@ -130,3 +130,47 @@ body {
   line-height: 26px;
   margin: 30px 0;
 }
+
+/* Feature Section  */
+.feature-area {
+  justify-content: space-between;
+  gap: 130px;
+}
+.feature-content .section-title {
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+}
+.feature-content p {
+  font-size: 1rem;
+  line-height: 26px;
+  margin: 30px 0;
+}
+.feature-card .card {
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.feature-card .card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.feature-card .card p {
+  font-size: 1rem;
+  line-height: 26px;
+  margin: 10px 0;
+}
+.feature-images h4 {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+  margin-left: -54px;
+  margin-top: -77px;
+}
+.feature-images .years {
+  font-size: 3rem;
+  font-weight: 700;
+}
