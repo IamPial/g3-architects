@@ -7,6 +7,9 @@
     gap: 20px;
     padding-top: 15px;
   }
+  .navbar .brand {
+    font-size: 2rem;
+  }
   .navbar .nav-links {
     flex-direction: column;
     gap: 10px;
@@ -14,7 +17,6 @@
   .banner-content h1 {
     font-size: 2.5rem;
   }
-
   /* Team Section */
   #teams .container {
     flex-direction: column-reverse;
@@ -29,6 +31,24 @@
     margin-left: 0;
   }
   .section-title {
+    font-size: 2rem;
+  }
+
+  /* feature section */
+  .feature-area {
+    flex-direction: column;
+    gap: 0;
+  }
+  .feature-card {
+    text-align: center;
+  }
+  .feature-images img {
+    width: 100%;
+  }
+  .feature-images h4 {
+    margin-left: 46px;
+  }
+  .feature-images .years {
     font-size: 2rem;
   }
 }
