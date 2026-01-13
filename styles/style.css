@@ -67,6 +67,9 @@ body {
   list-style: none;
   margin-right: 30px;
 }
+.nav-links li:nth-child(4) {
+  margin-right: 0;
+}
 .nav-links li a {
   text-decoration: none;
   font-size: 1.25rem;
@@ -93,3 +96,5 @@ body {
 .banner-img img {
   width: 100%;
 }
+
+/* TODO: Responsive the banner section */
