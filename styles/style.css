@@ -236,6 +236,9 @@ body {
   padding: 130px 0;
 }
 .footer-area {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 1440px;
   text-align: center;
   background-color: #fff4e7;
   border-radius: 8px;
