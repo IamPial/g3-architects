@@ -166,10 +166,14 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 0;
+  padding: 20px 25px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #ff900e;
   margin-left: -54px;
   margin-top: -77px;
 }
+
 .feature-images .years {
   font-size: 3rem;
   font-weight: 700;
@@ -211,4 +215,19 @@ body {
 .facts-card h4 {
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+/* Sponsors Section */
+.sponsors-content {
+  text-align: center;
+}
+.sponsors-content p {
+  margin-top: 24px;
+}
+.sponsors-images {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  filter: grayscale(100%);
 }
