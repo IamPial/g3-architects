@@ -61,4 +61,22 @@
   .facts-card {
     margin: 20px 0;
   }
+
+  /* Sponsors Section */
+  .sponsors-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* footer Section */
+  #footer {
+    padding: 60px 0 0;
+  }
+  .footer-area {
+    width: 100%;
+  }
+  .footer-area p {
+    font-size: 0.8rem;
+    padding: 20px;
+  }
 }
