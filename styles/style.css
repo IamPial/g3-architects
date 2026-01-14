@@ -30,7 +30,6 @@ body {
 }
 .text-orange {
   color: #ff900e;
-  color: #ff900e;
 }
 
 .display-flex {
@@ -230,4 +229,18 @@ body {
   justify-content: space-between;
   align-items: center;
   filter: grayscale(100%);
+}
+
+/* Footer Section */
+#footer {
+  padding: 130px 0;
+}
+.footer-area {
+  text-align: center;
+  background-color: #fff4e7;
+  border-radius: 8px;
+}
+.footer-area p {
+  font-size: 1.4rem;
+  padding: 39px;
 }
